@@ -4,7 +4,6 @@ class CreateSchoolClasses < ActiveRecord::Migration[5.0]
       t.string :title
       t.integer :room_numer
 
-      t.timestamps
     end
   end
 end
